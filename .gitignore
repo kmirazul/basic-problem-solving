@@ -1,0 +1,12 @@
+#System Files
+concepts/**/*.js
+problems/**/*.js
+
+#IDEs and editors
+/.idea
+/.vscode
+.project
+.classpath
+*.launch
+.settings/
+.idea/misc.xml
