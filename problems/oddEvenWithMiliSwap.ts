@@ -39,9 +39,9 @@ class OddEvenWithMiliSwap {
 let listOfElemet = [1,2,3,4,5,6,7,8];
 let oddEvenWithMiliSwap = new OddEvenWithMiliSwap();
 console.log(oddEvenWithMiliSwap.getSwapOddEvenData(listOfElemet));
-console.log('number swaping happend : ' + oddEvenWithMiliSwap.getSwapCount());
+console.log('number swapping happened : ' + oddEvenWithMiliSwap.getSwapCount());
 
 // input : 1 2 3 4 5 6 7 8
 // output :
 // [ 1, 7, 3, 5, 4, 6, 2, 8 ]
-// number swaping happend : 2
+// number swapping happened : 2
