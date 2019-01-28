@@ -16,3 +16,27 @@ Differences are calculated as :
 
  The maximum is found at 10 - 2 = 8
 */
+
+class MaximumDifferenceInAnArray {
+
+    getMaxFromArray (datas : number[]) : number {
+        let max = 0;
+        for( let i = 0 ; i < datas.length ; i++ ) {
+            for( let j = i ; j < datas.length ; j++ ) {
+                if(datas[i] < datas[j]) {
+                    let diff = datas[j] - datas[i];
+                    if(max < diff) {
+                        max = diff;
+                    }
+                }
+            }
+        }
+        return max;
+    }
+}
+
+let maxNumberFromArray = new MaximumDifferenceInAnArray();
+console.log(maxNumberFromArray.getMaxFromArray([2,3,10,2,4,8,1]));
+
+// input : [2,3,10,2,4,8,1]
+// output : 8

@@ -3,8 +3,6 @@
 // input : [ 1,2,3,4,5,6 ]
 // output: [ 1,5,3,4,2,6] and swaping : 1
 
-
-
 class OddEvenWithMiliSwap {
 
     private swapCount : number = 0;

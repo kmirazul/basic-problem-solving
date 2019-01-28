@@ -25,7 +25,7 @@ class Point2D {
         this.y = y;
     }
 
-    dist2D (point : Point3D) : number{
+    dist2D (point : Point3D) : number {
         let distanceX = (point.x - this.x);
         let distanceY = (point.y - this.y);
         let distanceInSquare = (distanceX * distanceX) + (distanceY * distanceY);
@@ -35,7 +35,6 @@ class Point2D {
     printDistance (distance : number) {
         console.log('2D distance = '+ distance);
     }
-
 }
 
 
