@@ -30,7 +30,8 @@ class Pattern1 {
             }
             console.log(output);
 
-            let expectedIndex = (counter+1) + i;
+            // counter = 15, (i+1) = expected additional value [ ex: counter + (i+1) = 15 + (4+1) = 20 ]
+            let expectedIndex = counter + (i+1);
             if(counter <= upto && expectedIndex >= upto) {
                 break;
             }
